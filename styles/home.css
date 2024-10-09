@@ -1,6 +1,6 @@
 .section-1 {
   background-image: url("../images/home.png");
-  background-size: cover;
+  background-size: auto;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -41,4 +41,8 @@
 .genero_lista {
   width: 20%;
   height: 3%;
+}
+
+.genero_item:hover {
+  color: rgb(172, 172, 172);
 }
