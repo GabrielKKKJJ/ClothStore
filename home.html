@@ -33,18 +33,10 @@
         <img src="images/logo.png" class="img-fluid ms-5 logo" />
         <ul class="navbar-nav nav gap-2 me-5">
           <li class="nav-item">
-            <a
-              class="nav-link active fs-5 fw-medium"
-              aria-current="page"
-              href="home.html"
-              >home</a
-            >
+            <a class="nav-link active fs-5 fw-medium" href="home.html">home</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link active fs-5 fw-medium"
-              aria-current="page"
-              href="sobre.html"
+            <a class="nav-link active fs-5 fw-medium" href="sobre.html"
               >sobre</a
             >
           </li>
@@ -60,14 +52,23 @@
         <ul
           class="genero_lista list-unstyled d-flex gap-5 mt-5 mb-0 fs-5 fw-medium text-center"
         >
-          <li class="genero_item" role="button">
+          <li class="genero_item" role="button" onclick="showMenCloths()">
             <a id="li_genero_h">Homens</a>
           </li>
-          <li id="li_genero_m" class="genero_item" role="button">
+          <li
+            id="li_genero_m"
+            class="genero_item"
+            role="button"
+            onclick="showWomenCloths()"
+          >
             <a>Mulheres</a>
           </li>
         </ul>
-        <div class="container mt-5 w-100 h-75" style="display: none">
+        <div
+          id="men-cloths"
+          class="container mt-5 w-100 h-75"
+          style="display: block"
+        >
           <div class="row">
             <div class="col d-flex justify-content-center gap-5">
               <div class="card border-0" style="width: 18rem">
@@ -242,5 +243,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="scripts/home.js"></script>
   </body>
 </html>
