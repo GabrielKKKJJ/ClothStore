@@ -1,0 +1,7 @@
+.header {
+  position: fixed;
+  z-index: 2;
+}
+.logo {
+  width: 5%;
+}
