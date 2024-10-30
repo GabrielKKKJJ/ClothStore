@@ -1,6 +1,6 @@
 # Cloth Store Site
 
-Este é um site de loja de roupas desenvolvido usando **Bootstrap** para estilização, com uma interface responsiva e amigável para facilitar a navegação e a experiência do usuário.
+Este é um site de loja de roupas desenvolvido usando **Bootstrap** para estilização, amigável para facilitar a navegação e a experiência do usuário.
 
 ## Imagens do Projeto
 
